@@ -92,3 +92,4 @@ const listaProdutos = [
     "classificacao": 4
   }
 ]
+export default listaProdutos
