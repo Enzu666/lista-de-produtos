@@ -1,6 +1,10 @@
 'use strict'
 
+<<<<<<< HEAD
 import produtos from "./produtos.js" 
+=======
+import produtos from "./produtos.js"
+>>>>>>> c85eb7c7eec2fd9bb6425da2f269c3a39a733503
 
 const coresPorCategoria = {
     "Informática": "#1a73e8",
@@ -8,11 +12,14 @@ const coresPorCategoria = {
     "Celulares": "#00c853",
     "Games": "#aa00ff",
 }
+<<<<<<< HEAD
 function gerarEstrelas(classificacao){
     const estrelaCheia = '⭐'
     const estrelasVazia = '☆'
     return estrelaCheia.repeat(classificacao) + estrelasVazia.repeat(5 - classificacao)
 }
+=======
+>>>>>>> c85eb7c7eec2fd9bb6425da2f269c3a39a733503
 
 function criarCard(produto){
     const card = document.createElement('div')
@@ -35,9 +42,12 @@ function criarCard(produto){
     const preco = document.createElement('h2')
     preco.textContent = `R$ ${produto.preco}`
 
+<<<<<<< HEAD
     const classificacao = document.createElement('p')
     classificacao.textContent = gerarEstrelas(produto.classificacao)    
 
+=======
+>>>>>>> c85eb7c7eec2fd9bb6425da2f269c3a39a733503
     const botao = document.createElement('div')
     botao.id = 'botao'
     botao.innerHTML = '<h3>comprar</h3>'
@@ -47,7 +57,10 @@ function criarCard(produto){
     card.appendChild(nome)
     card.appendChild(descricao)
     card.appendChild(preco)
+<<<<<<< HEAD
     card.appendChild(classificacao)
+=======
+>>>>>>> c85eb7c7eec2fd9bb6425da2f269c3a39a733503
     card.appendChild(botao)
 
     return card

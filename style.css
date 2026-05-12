@@ -7,7 +7,11 @@ body {
     min-height: 100vh;
     width: 100vw;
     display: flex;
+<<<<<<< HEAD
     flex-direction: column;  
+=======
+    flex-direction: column;
+>>>>>>> c85eb7c7eec2fd9bb6425da2f269c3a39a733503
     justify-content: center;
     align-items: center;
     background-color: #e8e8e8;
@@ -34,7 +38,11 @@ main{
     grid-template-columns: 1fr 1fr 1fr 1fr; 
     gap: 20px;
     justify-content: center;
+<<<<<<< HEAD
     padding: 20px;  
+=======
+    padding: 20px; 
+>>>>>>> c85eb7c7eec2fd9bb6425da2f269c3a39a733503
 }
 
 .card {
